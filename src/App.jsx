@@ -7,6 +7,7 @@ import Agents from "./pages/Agents";
 import Signin from "./pages/Signin";
 import ListProperty from "./components/ListProperty";
 import Blog from "./pages/Blog";
+import Signup from "./pages/Signup";
  
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
         <Route path="/sell" element={<Sell />} />
         <Route path="/agents" element={<Agents />} />
         <Route path="/signin" element={<Signin />} />
+        <Route  path="/signup" element={<Signup />} />  
         <Route path="/blog" element={<Blog />} />
         <Route path="/list-property" element={<ListProperty />} />
       </Routes>
