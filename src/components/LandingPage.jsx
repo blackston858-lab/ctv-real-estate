@@ -11,7 +11,7 @@ const LandingPage = () => {
       className="relative w-full min-h-screen flex items-center justify-center bg-cover bg-center"
       style={{
         backgroundImage:
-          "url('https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1920&q=80')",
+          "url('herobg.avif')",
       }}
     >
       {/* ── Navbar ── */}

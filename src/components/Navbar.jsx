@@ -138,7 +138,7 @@ const Navbar = () => {
               Log In
             </Link>
             <Link
-              to="/add-property"
+              to="/list-property"
               onClick={() => setIsOpen(false)} // Click par menu close
               className="text-center font-semibold bg-emerald-500 text-[#113529] py-3 rounded-md hover:bg-emerald-400 transition-colors active:scale-[0.98]"
             >
